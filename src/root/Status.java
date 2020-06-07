@@ -6,6 +6,12 @@ public class Status {
 	int currentFloor;
 	int numberOfPassangers;
 
+	public Status() {
+		isMoving = false;
+		currentFloor =0 ;
+		numberOfPassangers = 0;
+	}
+	
 	public Boolean getIsMoving() {
 		return isMoving;
 	}
