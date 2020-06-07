@@ -1,5 +1,5 @@
 package root;
 
 public enum Direction {
-	UP, DOWN
+	UP, DOWN, STOP
 }

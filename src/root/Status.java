@@ -10,6 +10,7 @@ public class Status {
 		isMoving = false;
 		currentFloor =0 ;
 		numberOfPassangers = 0;
+		curentDirection=Direction.STOP;
 	}
 	
 	public Boolean getIsMoving() {
